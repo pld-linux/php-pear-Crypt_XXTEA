@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - an implementation of XXTEA encryption algorithm
-Summary(pl.UTF-8):   %{_pearname} - implemtancja algorytmu szyfrującego XXTEA
+Summary(pl.UTF-8):	%{_pearname} - implemtancja algorytmu szyfrującego XXTEA
 Name:		php-pear-%{_pearname}
 Version:	0.8.0
 Release:	1
@@ -38,7 +38,7 @@ Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):	Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{version}-%{release}
 AutoReq:	no
