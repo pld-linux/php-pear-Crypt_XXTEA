@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - an implementation of XXTEA encryption algorithm
-Summary(pl):	%{_pearname} - implemtancja algorytmu szyfruj±cego XXTEA
+Summary(pl.UTF-8):   %{_pearname} - implemtancja algorytmu szyfrujÄ…cego XXTEA
 Name:		php-pear-%{_pearname}
 Version:	0.8.0
 Release:	1
@@ -28,17 +28,17 @@ using the algorithm.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-XXTEA to bezpieczny i szybki algorytm szyfruj±cy, wygodny w u¿yciu
+%description -l pl.UTF-8
+XXTEA to bezpieczny i szybki algorytm szyfrujÄ…cy, wygodny w uÅ¼yciu
 przy projektowaniu stron internetowych. Pakiet ten pozwala na
-szyfrowanie oraz deszyfrowanie ³añcuchów znaków przy u¿yciu tego
+szyfrowanie oraz deszyfrowanie Å‚aÅ„cuchÃ³w znakÃ³w przy uÅ¼yciu tego
 algorytmu.
 
 Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl):	Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{version}-%{release}
 AutoReq:	no
@@ -47,7 +47,7 @@ AutoProv:	no
 %description tests
 Tests for PEAR::%{_pearname}.
 
-%description tests -l pl
+%description tests -l pl.UTF-8
 Testy dla PEAR::%{_pearname}.
 
 %prep
