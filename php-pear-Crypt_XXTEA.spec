@@ -7,12 +7,12 @@
 Summary:	%{_pearname} - an implementation of XXTEA encryption algorithm
 Summary(pl.UTF-8):	%{_pearname} - implemtancja algorytmu szyfrującego XXTEA
 Name:		php-pear-%{_pearname}
-Version:	0.8.0
+Version:	0.9.0
 Release:	1
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	1791047c8a2a5455c0c9e278e11edf0f
+# Source0-md5:	611bb2fc28aa91d86ee3803b06b1916a
 URL:		http://pear.php.net/package/Crypt_XXTEA/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
@@ -41,8 +41,8 @@ Summary:	Tests for PEAR::%{_pearname}
 Summary(pl.UTF-8):	Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{version}-%{release}
-AutoReq:	no
 AutoProv:	no
+AutoReq:	no
 
 %description tests
 Tests for PEAR::%{_pearname}.
