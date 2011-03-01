@@ -8,7 +8,7 @@ Summary:	%{_pearname} - an implementation of XXTEA encryption algorithm
 Summary(pl.UTF-8):	%{_pearname} - implemtancja algorytmu szyfrującego XXTEA
 Name:		php-pear-%{_pearname}
 Version:	0.9.0
-Release:	1
+Release:	2
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
